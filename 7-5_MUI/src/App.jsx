@@ -1,4 +1,4 @@
-import ButtonAppBar from './components/ButtonAppBar'
+import ResponsiveAppBar from './components/ResponsiveAppBar'
 import './App.css'
 // import NavBar from './components/NavBar'
 import AppRoutes from './Routes/AppRoutes'
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     {/* <NavBar/> */}
-    <ButtonAppBar/>
+    <ResponsiveAppBar/>
     <AppRoutes/>
     </>
   )
